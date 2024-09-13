@@ -1,0 +1,89 @@
+#superpadre{
+    height: 600px;
+    width: 100%;
+
+    background-color: rgb(235, 223, 223);
+    margin: 5px;
+}
+
+/*Se agrega el estilo de los titulos*/
+.titulo {
+    
+    height: 100px;
+    width: 100%;
+
+    background-color: rgb(37, 49, 61);
+    
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+;
+}
+
+/*Se crea el padre para adjuntar los datos del api APOD*/
+#traido{
+    height: 500px;
+    width: 100%;
+ 
+    background-color: rgb(55, 64, 74);
+
+    display: flex;
+
+}
+
+/*Se agregan los estilos para el titlo y la descripcion de la imagen*/
+#textoAPOD{
+    height: 95%;
+    width: 50%;
+    
+    font-size: 120%;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 10px;
+};
+
+
+/*Se crea el elemento buscador y los atributos de cada input*/
+#buscador{
+    
+    height: 40px;
+    width: 100%;
+
+    background-color: rgb(74, 89, 104);
+    
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    align-content: space-between;
+    display: flex;
+    
+}
+#añoBusca, #mesBusca, #diaBusca{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    height: 40px;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: space-evenly;
+}
+
+
+#buscar{
+    height: 100%;
+    width: 5%;
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(72, 99, 74);
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 5px;
+
+    box-sizing: border-box;
+    text-align: center;
+    align-content: space-evenly;
+}
